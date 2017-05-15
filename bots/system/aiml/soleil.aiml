@@ -1,0 +1,34 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!-- COMMENTAIRE -->
+<aiml>
+
+	<category><pattern>C'est quoi une etoile</pattern>   
+    <template>C'est un corps céleste gazeux qui rayonne sa propre lumière par réactions de fusion nucléaire</template>     
+	</category>  
+	<category><pattern>^ étoile_</pattern>  
+      <template><srai>C'est quoi une etoile</srai></template>     
+	</category>
+	<category><pattern>^ etoile_</pattern>  
+      <template><srai>C'est quoi une etoile</srai></template>     
+	</category>
+	
+	<category><pattern>combien d'etoiles dans notre systeme solaire</pattern>   
+    <template>1 seule, le soleiil</template>     
+	</category>  
+	<category><pattern>combien ^ etoiles ^ notre systeme solaire</pattern>   
+		<template><srai>combien d'etoiles dans notre systeme solaire</srai></template>     
+	</category>  
+	<category><pattern>combien ^ étoiles ^ notre systeme solaire</pattern>  
+		<template><srai>combien d'etoiles dans notre systeme solaire</srai></template>     
+	</category>
+		
+	<category><pattern>^ quelle temperature ^</pattern>
+	<that>C'est quoi une etoile</that>
+	<template>Plusieurs millions de degrés au centre et plusieurs milliers de degrés en surface</template>
+	</category>
+	<category><pattern>ah oui</pattern>
+	<that>C'est une boule de gaz très chaude</that>
+	<template>Plusieurs millions de degrés au centre et plusieurs milliers de degrés en surface</template>
+	</category>
+  
+</aiml>

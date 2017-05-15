@@ -1,0 +1,7 @@
+le rayon
+la temperature
+l'age
+la Duree d'une journee
+l'Orbite
+l'Atmosphere
+la Couleur

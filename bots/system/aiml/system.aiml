@@ -1,0 +1,306 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!-- COMMENTAIRE -->
+<aiml>
+
+	<category><pattern>C'est quoi le systeme solaire</pattern>   
+    <template>C'est notre système planétaire</template>     
+	</category>  
+	<category><pattern>qu'es ce que le systeme solaire</pattern>  
+      <template><srai>c'est quoi le systeme solaire</srai></template>     
+	</category>
+	
+	<category><pattern>C'est quoi le systeme planétaire</pattern>   
+    <template>C'est un système composé de planètes et divers corps célestes, le tout gravitant autour d'une étoile</template>     
+	</category>  
+	<category><pattern>^ systeme planétaire</pattern>  
+    <template><srai>c'est quoi le systeme planétaire</srai></template>     
+	</category> 
+	<category><pattern>^ systeme planetaire</pattern>  
+    <template><srai>c'est quoi le systeme planétaire</srai></template>     
+	</category>
+
+	<category><pattern>C'est quoi une géante de glace</pattern>   
+    <template>C'est une planète composée principalement d'eau, de méthane ou d'ammoniac</template>     
+	</category>  
+ 	<category><pattern>^ géante de glace</pattern>  
+      <template><srai>C'est quoi une géante de glace</srai></template>     
+	</category>
+<category><pattern>^ geante de glace</pattern>  
+      <template><srai>C'est quoi une géante de glace</srai></template>     
+	</category>
+
+<category><pattern>C'est quoi une planète naine</pattern>   
+    <template>C'est un corps céleste en orbite autour du Soleil, mais qui n'a pas fait place nette dans son voisinage orbital</template>     
+	</category>  
+ 	<category><pattern>^ planète naine</pattern>  
+      <template><srai>C'est quoi une planète naine</srai></template>     
+	</category>
+<category><pattern>^ planete naine</pattern>  
+      <template><srai>C'est quoi une planète naine</srai></template>     
+	</category>
+
+<category><pattern>^ voisinage orbital</pattern>   
+    <template>Cela désigne les corps célestes présents sur l'orbite d'une planète</template>     
+	</category>  
+
+<category><pattern>C'est quoi une naine jaune</pattern>   
+    <template>C'est une étoile de taille moyenne et reconnaissable à sa couleur</template>     
+	</category>  
+ 	<category><pattern>^ naine jaune</pattern>  
+      <template><srai>C'est quoi une naine jaune</srai></template>     
+	</category>
+
+<category><pattern>C'est quoi une géante gazeuse</pattern>   
+    <template>C'est une planète composée principalement d’hydrogène et d’hélium.</template>     
+	</category>  
+ 	<category><pattern>^ géante gazeuse</pattern>  
+      <template><srai>C'est quoi une géante gazeuse</srai></template>     
+	</category>
+<category><pattern>^ geante gazeuse</pattern>  
+      <template><srai>C'est quoi une géante gazeuse</srai></template>     
+	</category>
+
+	<category><pattern>quand le systeme solaire est-il nee</pattern>   
+    <template>Il a commencé à naître il y a environ 4,55 milliards d'années</template>     
+	</category>  
+	<category><pattern>quand ^ systeme planétaire ^</pattern>  
+    <template><srai>quand le systeme solaire est-il nee</srai></template>     
+	</category> 
+	<category><pattern>quand ^ systeme solaire ^</pattern>  
+    <template><srai>quand le systeme solaire est-il nee</srai></template>     
+	</category>
+		<category><pattern>quand ^ système solaire ^</pattern>  
+    <template><srai>quand le systeme solaire est-il nee</srai></template>     
+	</category>
+	
+	<category><pattern>c'est quoi ^ <SET>PLANETS</SET></pattern>
+	<template><map name="whatis"><star index="2"/></map>.</template>
+	</category>  
+	<category><pattern>c'est quoi ^ <SET>SATET</SET></pattern>
+	<template><map name="whatis"><star index="2"/></map>.</template>
+	</category> 
+	
+	<category><pattern>c'est quoi un satellite naruel</pattern>
+	<template>C'est un objet céleste qui est en orbite autour d'une planète, ou un objet plus gros que lui</template>
+	</category>  
+<category><pattern>qu'est ce q'un satellite naruel</pattern>
+	<template><srai>c'est quoi un satellite naruel</srai></template>
+	</category> 
+
+	
+<category><pattern>c'est quoi une planète</pattern>
+	<template>C'est un corps céleste non lumineux qui orbite autour d'une étoile</template>
+	</category>  
+<category><pattern>C'est quoi une planete</pattern>   
+    <template>C'est un corps céleste non lumineux qui orbite autour d'une étoile</template>     
+	</category> 
+
+	<category><pattern>C'est quoi un corps céleste</pattern>   
+    <template>Un corps céleste, ou objet céleste, est un objet quelconque de l’Univers (une planète, une étoile, etc...)</template>     
+	</category> 
+	<category><pattern>^ corps celeste_</pattern>  
+      <template><srai>C'est quoi un corps céleste</srai></template>     
+	</category>	
+	<category><pattern>^ corps céleste_</pattern>  
+      <template><srai>C'est quoi un corps céleste</srai></template>     
+	</category>
+	
+	<category><pattern>combien y-a t-il de corps célestes</pattern>   
+	  <template>Impossible à déterminer</template>     
+	</category> 
+	<category><pattern>combien ^ corps céleste_</pattern>  
+      <template><srai>combien y-a t-il de corps célestes</srai></template>     
+	</category>
+	<category><pattern>combien ^ corps celeste_</pattern>  
+      <template><srai>combien y-a t-il de corps célestes</srai></template>     
+	</category>
+	
+	<category><pattern>C'est quoi l'univers</pattern>   
+    <template>C'est l'ensemble de tout ce qui existe</template>     
+	</category>
+	<category><pattern>^ univers</pattern>  
+      <template><srai>C'est quoi l'univers</srai></template>     
+	</category>
+	<category><pattern>^ l'univers</pattern>  
+      <template><srai>C'est quoi l'univers</srai></template>     
+	</category>
+	
+	
+		
+	<category><pattern>pourquoi non lumineux</pattern>   
+    <template>Car elle ne produit pas de lumière par elle même</template>     
+	</category>
+<category><pattern>pourquoi non lumineuse</pattern>   
+    <template>Car elle ne produit pas de lumière par elle même</template>     
+	</category>
+<category><pattern>pourquoi elle n'émait pas de lumière</pattern>   
+    <template>Car elle ne produit pas de lumière par elle même</template>     
+	</category>  
+	
+	<category><pattern>C'est quoi graviter</pattern>   
+    <template>C'est l'attraction provoquée par un corps</template>     
+	</category> 
+<category><pattern>^ graviter</pattern>   
+    <template><srai>C'est quoi graviter</srai></template>     
+	</category> 
+
+<category><pattern>C'est quoi l'attraction</pattern>   
+    <template>C'est une force qui tend à rapprocher des corps</template>     
+	</category> 
+<category><pattern>^ l'attraction</pattern>   
+    <template><srai>C'est quoi l'attraction</srai></template>     
+	</category> 
+	
+	<category><pattern>C'est quoi orbite</pattern>   
+    <template>C'est décrire une trajectoire circulaire autour d'un point donné, par exemple autour du soleil</template>     
+	</category> 
+<category><pattern>^ orbite</pattern>   
+    <template><srai>C'est quoi orbite</srai></template>     
+	</category>
+<category><pattern>^ orbital</pattern>   
+    <template><srai>C'est quoi orbite</srai></template>     
+	</category>
+<category><pattern>^ orbité</pattern>   
+    <template><srai>C'est quoi orbite</srai></template>     
+	</category>
+<category><pattern>^ orbiter</pattern>   
+    <template><srai>C'est quoi orbite</srai></template>     
+	</category>	
+
+	<category><pattern>parle moi de * </pattern>
+	<template><srai>Je ne connais pas, désolé <star/></srai></template>     
+	</category>
+<category><pattern>parle moi de ^ <SET>PLANETS</SET></pattern>
+	<template><map name="whatis"><star index="2"/></map>.</template>
+	</category>   
+
+
+   <category><pattern>C'est quoi une planete tellurique</pattern>
+	<template>C'est un planète composée essentiellement de roches et de métal</template>
+	</category>  
+	<category><pattern>^ planete_ tellurique_ ^</pattern>
+	<template><srai>C'est quoi une planete tellurique</srai></template>     
+	</category>
+	<category><pattern>^ planète_ tellurique_ ^</pattern>
+	<template><srai>C'est quoi une planete tellurique</srai></template>     
+	</category>
+<category><pattern>^ planete tellurique ^</pattern>
+	<template><srai>C'est quoi une planete tellurique</srai></template>     
+	</category>
+<category><pattern>que signifie tellurique_</pattern>
+	<template><srai>C'est quoi une planete tellurique</srai></template>     
+	</category>
+<category><pattern>ça veut dire quoi tellurique_</pattern>
+	<template><srai>C'est quoi une planete tellurique</srai></template>     
+	</category>
+   
+	<category><pattern>^ Pluton ^</pattern>
+	<template>Pluton n'est plus considérée comme une planète depuis 2006</template>
+	</category>
+	<category><pattern>Est ce que Pluton est une planete</pattern>
+	<template><srai>^ Pluton ^</srai></template>
+	</category>
+   
+	<category><pattern>Est ce que <set>PLANETS</set> est une planete</pattern>
+	<template>Oui, <star/> est une planète de notre système solaire</template>
+	</category>
+	<category><pattern>Est ce que le soleil est une planete</pattern>
+	<template>Non, le soleil est une étoile</template>
+	</category>
+	<category><pattern>^ soleil ^ une planete</pattern>
+     <template>Non, le soleil est une étoile</template>
+   </category>
+    <category><pattern>est ce que la lune est une planete</pattern>
+     <template>Non, la Lune est un satellite naturel de la Terre</template>
+    </category>   
+   <category><pattern>^ lune ^ une planete</pattern>
+     <template>Non, la Lune est un satellite naturel de la Terre</template>
+   </category>
+   <category><pattern>Est ce que * est une planete</pattern>
+     <template><star/> ?? Jamais entendu parler</template>
+   </category>
+   
+   <category><pattern>Combien ^  planetes ^ systeme solaire</pattern>
+     <template>8 au total</template>
+   </category>
+ <category><pattern>Combien ^ de planetes dans notre systeme solaire</pattern>
+     <template>8 au total</template>
+   </category>
+<category><pattern>Combien ^ de planètes dans notre système solaire</pattern>
+     <template>8 au total</template>
+   </category>
+   <category><pattern>Combien ^  planètes ^ système solaire</pattern>
+     <template>8 au total</template>
+   </category>
+   <category><pattern>Combien *  planetes * systeme solaire</pattern>
+     <template>8 au total</template>
+   </category>
+
+	<category><pattern>DISTANCE TERRE <SET>PLANETS</SET></pattern>
+	<template><map name="distances"><star/></map>
+	</template>
+	</category>
+	<category><pattern>DISTANCE entre la TERRE et <SET>PLANETS</SET></pattern>
+	<template><map name="distances"><star/></map>
+	</template>
+	</category>
+	<category><pattern>* DISTANCE entre la TERRE et <SET>PLANETS</SET></pattern>
+	<template><map name="distances"><star index="2"/></map>
+	</template>
+	</category>
+	 
+	<category><pattern>distance entre terre et la <SET>SATET</SET></pattern>
+     <template><map name="distances"><star/></map></template>
+	</category>
+	<category><pattern>* DISTANCE entre la TERRE et la<SET>PLANETS</SET></pattern>
+	<template><map name="distances"><star index="2"/></map>
+	</template>
+	</category>
+	<category><pattern>distance entre terre et le <SET>SATET</SET></pattern>
+     <template><map name="distances"><star/></map></template>
+	</category>
+	<category><pattern>* DISTANCE entre la TERRE et le <SET>PLANETS</SET></pattern>
+	<template><map name="distances"><star index="2"/></map>
+	</template>
+	</category>
+	<category><pattern>DISTANCE TERRE <SET>SATET</SET></pattern>
+     <template> <map name="distances"><star/></map>
+     </template>
+	</category>
+
+	<category><pattern>^ population ^ Terre</pattern>
+     <template>7 430 000 000 de personnes</template>
+	</category>
+	<category><pattern>^ population ^ Mars</pattern>
+     <template>2 Mars Exploration Rover</template>
+	</category>
+	<category><pattern>^ population ^</pattern>
+     <template>0 à notre connaisssance</template>
+	</category>
+
+<category><pattern>^ d'habitants ^ Terre</pattern>
+     <template>7 430 000 000 de personnes</template>
+	</category>
+<category><pattern>^ d'habitants ^ Mars</pattern>
+     <template>2 Mars Exploration Rover</template>
+	</category>
+<category><pattern>^ d'habitants ^</pattern>
+     <template>0 à notre connaisssance</template>
+	</category>
+
+   <category><pattern>mars ^ rover</pattern>   
+    <template>Ce sont des robots chargés d'étudier la planète Mars</template>     
+	</category>
+
+   <category><pattern>quelle planete est la plus proche du soleil</pattern>   
+    <template>Mercure</template>     
+	</category>
+	<category><pattern>^ planete ^ plus proche du soleil</pattern>   
+    <template><srai>quelle planete est la plus proche du soleil</srai></template>     
+	</category>
+	<category><pattern>^ quelle ^ distance ^</pattern>
+	<that>mercure</that>
+	<template>De 46 à 70 millions de kilomètres</template>
+	</category>
+   
+</aiml>

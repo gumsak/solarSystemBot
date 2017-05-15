@@ -1,0 +1,8 @@
+le type:Etoile de type naine jaune
+le rayon:695 700 km
+la temperature:6 000 °C à la surface, 15 millions dans son noyau
+l'age:4 503 milliards d'années
+la duree d'une journee:26 jours environ 
+l'orbite:Le soleil est au centre de notre système solaire, il ne bouge pas par rapport à nous
+l'atmosphere:Composée de gaz, notamment d'hydrogène et d'hélium
+la couleur:Jaune

@@ -1,0 +1,8 @@
+le type:Planète tellurique
+le rayon:2 439 km
+la temperature:-183 °C à 427 °C
+l'age:4 503 milliards d'années
+la duree d'une journee:58 jours et 15 heures
+l'orbite:88 jours
+l'atmosphere:Auncune atmosphère
+la couleur:grise

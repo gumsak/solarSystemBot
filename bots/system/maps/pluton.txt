@@ -1,0 +1,8 @@
+le type:Planète naine
+le rayon:1 187 km
+la temperature:Entre -233 °C et 223 °C
+l'age:4 503 milliards d'années
+la duree d'une journee:Environ 6 jours
+l'orbite:248 ans
+l'atmosphere:Composée d'azote, de monoxyde de carbone et de méthane
+la couleur:Marron

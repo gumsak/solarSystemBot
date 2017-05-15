@@ -1,0 +1,159 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!-- COMMENTAIRE -->
+<aiml>
+
+  <category><pattern>Bonjour</pattern>
+  <template><random>
+    <li>Bonjour</li>
+    <li>Salut !</li>
+  </random></template> 
+  </category>   
+  <category><pattern>Salut</pattern>
+  <template><srai>Bonjour</srai></template>
+  </category>
+  <category><pattern>Bonjour *</pattern>
+  <template><srai>Bonjour</srai></template>     
+  </category>   
+  <category><pattern>Salut *</pattern>
+  <template><srai>Bonjour</srai></template>
+  </category> 
+  <category><pattern>Hello</pattern>
+  <template>Je ne parle que français.</template>
+  </category>
+  <category><pattern>Hi</pattern>
+  <template><srai>Hello</srai></template>
+  </category>
+  
+<category><pattern>Au revoir</pattern>
+  <template><random>
+    <li>A plus tard <get name = "username"/> </li>
+    
+  </random></template> 
+  </category>   
+<category><pattern>a plus tard</pattern>
+  <template><srai>Au revoir</srai></template>
+  </category>
+<category><pattern>merci ^ a plus tard</pattern>
+  <template><srai>Au revoir</srai></template>
+  </category>
+
+<category><pattern>^ merci</pattern>
+  <template>De rien</template> 
+  </category>   
+
+
+<category>
+     <pattern>^ des enfants</pattern>
+     <template>Non</template>
+</category>
+<category>
+     <pattern>^ famille</pattern>
+     <template>Non</template>
+</category>
+
+
+
+  <category>
+    <pattern>je suis *</pattern>
+    <template>Salut <star/> !<think><set name="username"> <star/></set></think></template>  
+  </category>
+ <category><pattern>mon nom est *</pattern>
+  <template><srai>je suis <star/></srai></template>
+  </category>
+  <category><pattern>* est mon nom</pattern>
+  <template><srai>je suis <star/></srai></template>
+  </category>
+  <category><pattern>^ m'appelle *</pattern>
+  <template><srai>je suis <star index="2"/></srai></template>
+  </category>
+  
+  <category>
+     <pattern>quel est ton nom</pattern>
+     <template>Je suis NESS</template>
+   </category>
+   <category>
+     <pattern>^ t'appelles ^</pattern>
+     <template><srai>quel est ton nom</srai></template>
+   </category>
+    <category>
+  <pattern>^ qui es tu ^</pattern>
+     <template><srai>quel est ton nom</srai></template>
+    </category>
+     <category>
+<pattern>^ ton nom ^</pattern>
+     <template><srai>quel est ton nom</srai></template>
+   </category>
+
+<category>
+     <pattern>quel est ton métier</pattern>
+     <template>Je suis une encyclopédie sur le système solaire</template>
+</category>
+ <category>
+<pattern>^ ton métier ^</pattern>
+     <template><srai>quel est ton métier</srai></template>
+ </category>
+<category>
+<pattern>^ tu sers ^</pattern>
+     <template><srai>quel est ton métier</srai></template>
+ </category>
+  <category>
+<pattern>^ ta fonction ^</pattern>
+     <template><srai>quel est ton métier</srai></template>
+   </category>
+<category>
+<pattern>^ ta profession ^</pattern>
+     <template><srai>quel est ton métier</srai></template>
+</category>
+<category>
+<pattern>^ ton travail ^</pattern>
+     <template><srai>quel est ton métier</srai></template>
+ </category>
+<category>
+<pattern>^ fais tu ^</pattern>
+     <template><srai>quel est ton métier</srai></template>
+ </category>
+<category>
+<pattern>^ fais-tu ^</pattern>
+     <template><srai>quel est ton métier</srai></template>
+ </category>   
+<category>
+<pattern>^ tu fais ^</pattern>
+     <template><srai>quel est ton métier</srai></template>
+ </category>   
+
+<category>
+     <pattern>ok</pattern>
+     <template>Posez moi des questions sur le système solaire</template>
+</category>
+
+<category>
+     <pattern>aide moi</pattern>
+     <template>Posez moi des questions sur le système solaire (Ex : quelle est la couleur de mars...)</template>
+</category>
+<category>
+     <pattern>aidez moi</pattern>
+     <template><srai>aide moi (Ex : quelle est la couleur de mars...)</srai></template>
+</category>
+
+   <category>
+     <pattern>alice</pattern>
+     <template>Non ?</template>
+   </category>
+   
+   <category>
+     <pattern>alice comment</pattern>
+     <template>Je ne suis pas ALICE</template>
+   </category>
+   
+   <category><pattern>J'aime *</pattern>
+   
+   <template><random>
+     <li>Moi aussi</li>
+     <li>Moi aussi</li>
+     <li>Moi aussi j'aime <star/></li>
+     <li>Moi aussi j'aime <star/></li>
+     <li>Moi pas trop !</li></random>
+   </template>    
+   </category>
+  
+</aiml>

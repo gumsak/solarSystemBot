@@ -1,0 +1,8 @@
+le Type:Planète gazeuse
+le Rayon:69 911 km (11 fois la Terre)
+la Temperature:Environ -148 °C
+l'Age:4 503 milliards d'années
+la Duree d'une journee:9 heures et 56 minutes
+l'Orbite:12 ans
+l'Atmosphere:Principalement composée d'hydrogène et d'hélium 
+la Couleur:Jaune avec des bandes brunes

@@ -1,0 +1,112 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!-- COMMENTAIRE -->
+<aiml>
+
+	<category><pattern>quelle est <SET>INFOS</SET> de jupiter</pattern>
+	<template>> <map name="jupiter"><star/></map>
+	</template>
+	</category>  
+<category><pattern>quel est <SET>INFOS</SET> de jupiter</pattern>
+	<template>> <map name="jupiter"><star/></map>
+	</template>
+	</category>  
+  
+<category><pattern>quelle est <SET>INFOS</SET> de mercure</pattern>
+	<template>> <map name="mercure"><star/></map>
+	</template>
+	</category>  
+<category><pattern>quel est <SET>INFOS</SET> de mercure</pattern>
+	<template>> <map name="mercure"><star/></map>
+	</template>
+	</category>  
+
+<category><pattern>quelle est <SET>INFOS</SET> de mars</pattern>
+	<template>> <map name="mars"><star/></map>
+	</template>
+	</category>  
+<category><pattern>quel est <SET>INFOS</SET> de mars</pattern>
+	<template>> <map name="mars"><star/></map>
+	</template>
+	</category> 
+
+<category><pattern>quelle est <SET>INFOS</SET> de saturne</pattern>
+	<template>> <map name="saturne"><star/></map>
+	</template>
+	</category>  
+<category><pattern>quel est <SET>INFOS</SET> de saturne</pattern>
+	<template>> <map name="saturne"><star/></map>
+	</template>
+	</category>  
+
+<category><pattern>quelle est <SET>INFOS</SET> de neptune</pattern>
+	<template>> <map name="neptune"><star/></map>
+	</template>
+	</category> 
+<category><pattern>quel est <SET>INFOS</SET> de neptune</pattern>
+	<template>> <map name="neptune"><star/></map>
+	</template>
+	</category>  
+
+<category><pattern>quelle est <SET>INFOS</SET> d'uranus</pattern>
+	<template>> <map name="uranus"><star/></map>
+	</template>
+	</category>  
+<category><pattern>quel est <SET>INFOS</SET> d'uranus</pattern>
+	<template>> <map name="uranus"><star/></map>
+	</template>
+	</category>  
+
+<category><pattern>quelle est <SET>INFOS</SET> de venus</pattern>
+	<template>> <map name="venus"><star/></map>
+	</template>
+	</category>  
+<category><pattern>quel est <SET>INFOS</SET> de venus</pattern>
+	<template>> <map name="venus"><star/></map>
+	</template>
+	</category>  
+<category><pattern>quelle est <SET>INFOS</SET> de vénus</pattern>
+	<template>> <map name="venus"><star/></map>
+	</template>
+	</category>  
+<category><pattern>quel est <SET>INFOS</SET> de vénus</pattern>
+	<template>> <map name="venus"><star/></map>
+	</template>
+	</category>  
+
+<category><pattern>quelle est <SET>INFOS</SET> de la terre</pattern>
+	<template>> <map name="terre"><star/></map>
+	</template>
+	</category>  
+<category><pattern>quel est <SET>INFOS</SET> de la terre</pattern>
+	<template>> <map name="terre"><star/></map>
+	</template>
+	</category>  
+
+<category><pattern>quelle est <SET>INFOS</SET> de pluton</pattern>
+	<template>> <map name="pluton"><star/></map>
+	</template>
+	</category>  
+<category><pattern>quel est <SET>INFOS</SET> de pluton</pattern>
+	<template>> <map name="pluton"><star/></map>
+	</template>
+	</category>  
+
+<category><pattern>quelle est <SET>INFOS</SET> du soleil</pattern>
+	<template>> <map name="soleil"><star/></map>
+	</template>
+	</category>  
+<category><pattern>quel est <SET>INFOS</SET> du soleil</pattern>
+	<template>> <map name="soleil"><star/></map>
+	</template>
+	</category>  
+
+<category><pattern>quelle est <SET>INFOS</SET> de la lune</pattern>
+	<template>> <map name="lune"><star/></map>
+	</template>
+	</category>  
+<category><pattern>quel est <SET>INFOS</SET> de la lune</pattern>
+	<template>> <map name="lune"><star/></map>
+	</template>
+	</category>  
+
+</aiml>

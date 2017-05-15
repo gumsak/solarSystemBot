@@ -1,0 +1,8 @@
+le type:Géante gazeuse
+le rayon:58 232 km
+la temperature:Environ -178 °C
+l'age:4 503 milliards d'années
+la duree d'une journee:10 heures et 42 minutes
+l'orbite:Environ 29 ans
+l'atmosphere:Principalement composée d'hydrogène et d'hélium 
+la couleur:Jaune

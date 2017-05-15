@@ -1,0 +1,10 @@
+Soleil:C'est l'étoile de notre système solaire
+Mercure:C'est une planète tellurique de notre système solaire, la planète la plus proche du soeil
+Mars:C'est une planète tellurique de notre système solaire
+Terre:C'est une planète tellurique de notre système solaire, nous y sommes actuellement
+Venus:C'est une planète tellurique de notre système solaire
+Uranus:C'est une planète Géante de notre système, une Géante de glace plus précisément, tout comme Neptune
+Saturne:C'est une planète Géante de notre système, une Géante gazeuse plus précisément
+Jupiter:C'est une planète Géante gazeuse
+Neptune:C'est une planète Géante de notre système, une Géante de glace plus précisément
+lune:C'est le seul satellite naturel de la Terre

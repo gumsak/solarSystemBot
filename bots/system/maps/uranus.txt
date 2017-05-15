@@ -1,0 +1,8 @@
+le type:Géante de glace
+le rayon:25 362 km
+la temperature:Environ -200 °C
+l'age:4 503 milliards d'années
+la duree d'une journee:Environ 17 heures
+l'orbite:84 ans
+l'atmosphere:Composée principalement d'hydrogène et d'hélium
+la couleur:Couleur opale, cyan

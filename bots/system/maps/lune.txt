@@ -1,0 +1,8 @@
+le Type:Satellite naturel
+le Rayon:1 737 km
+la Temperature:De -233 °C à 123 °C
+l'Age:4 503 milliards d'années
+la Duree d'une journee:Environ 27 jours
+l'Orbite:Met environ 27 jours pour effectuer un tour complet de la Terre
+l'Atmosphere:Aucune
+la Couleur:Grise
